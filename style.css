@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* Correct the selector for the button */
+#findParkingBtn {
+    background-color: red;
+    color: Black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    /* Add any additional styling you want */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 60px; /* Adjust the height value as needed */
+}
